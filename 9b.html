@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <script>
+            function fact(){
+                let n = Number(document.getElementById("factorial").value);
+                let ans=1;
+                for(let i=n;i>=1;i--){
+                    ans=ans*i;
+                }
+                document.write(ans);
+            }
+            function fib(){
+                let num = Number(document.getElementById("fibnocci").value);
+                let a=0,b=1,c;
+                for(i=1;i<=num;i++){
+                    document.write(a + " ");
+                    c=a+b;
+                    a=b;
+                    b=c;
+                }
+         }
+        </script
+    </head>
+    <body ><center>
+        <br><br>
+        <input type="text" id="factorial" placeholder="enter the number for factorial">
+        <input type="submit" value="click for factorial" onclick="fact()">
+        <br><br><br>
+         <input type="text" id="fibnocci" placeholder="enter the number for fibnocci">
+        <input type="submit" value="click for fibnocci" onclick="fib()">
+        </center>
+    </body>
+</html>

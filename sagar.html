@@ -1,0 +1,125 @@
+<!-- 🔗 Navigation Menu with Portfolio and Footer -->
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #0c0b0b;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: inline-block;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #bdb5b5;
+            color: rgb(255, 251, 9);
+        }
+
+
+        .portfolio {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px;
+            flex: 1;
+        }
+
+        .portfolio img {
+            width: 150px;
+            /* height: 300px; */
+            border-radius: 10px;
+            margin-right: 40px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .portfolio-text {
+            max-width: 500px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .portfolio-text h2 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        .portfolio-text p {
+            color: #555;
+            line-height: 1.5;
+        }
+
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 14px;
+        }
+
+        footer a {
+            color: yellow;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="sagar1.html">Profile</a>
+        <a href="skills.html">Skills</a>
+        <a href="#">Achievements</a>
+        <a href="#">Experience</a>
+    </nav>
+
+    <section class="portfolio">
+        <img src="sag_photo.jpg" alt="My Photo">
+        <div class="portfolio-text">
+            <h2>Lakshmi Srinivas</h2>
+            <p><strong>B.Tech 2nd Year Student</strong></p>
+            <p>
+                I am a passionate Computer Science student with interests in web development, programming, and problem
+                solving.
+                Currently improving my skills in HTML, CSS, JavaScript, and C++.
+                I aim to become a full-stack developer and contribute to innovative projects.
+            </p>
+            <p><strong>Skills:</strong> HTML, CSS, JavaScript, C++, SQL</p>
+            <p><strong>Contact:</strong> JLsrinivas@example.com</p>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2025 LakshmiSrinivas |
+        <a href="#">LinkedIn</a> |
+        <a href="#">GitHub</a> |
+        <a href="#">Email</a>
+    </footer>
+</body>
+
+</html>

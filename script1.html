@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function display(){
+            var username=document.getElementById("username").value;
+            var password=document.getElementById("password").value;
+            if(username == password){
+              document.write("WELCOME TO ADITYA UNIVERSITY");
+            }
+            else{
+                document.write("Your Credentials are invalid ");
+            }
+        }
+    </script>
+</head>
+<body>
+   username : <input type="text" id="username">
+   <br>
+    password : <input type="text" id="password">
+    <br>
+    <input type="button" value="submit" onclick="display();">
+</body>
+</html>

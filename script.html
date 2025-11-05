@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function display(){
+            var firstnumber = Number(document.getElementById("firstnumber").value);
+            var secondnumber = Number(document.getElementById("secondnumber").value);
+            var sum = (firstnumber) +(secondnumber);
+            document.write("Your Answer is "+sum);
+        }
+    </script>
+</head>
+<body>
+    firstnumber : <input type="text" id="firstnumber">
+    secondnumber : <input type="text" id="secondnumber">
+    <input type="button" value="Add" onclick="display();">
+</body>
+</html>

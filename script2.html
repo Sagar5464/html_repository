@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function show(){
+            var a=window.prompt("Enter a Value");
+            document.write(a);
+        }
+        function reverse(){
+            var a=Number(window.prompt("Enter a Value"));
+            var rev=0;
+            while(a>0){
+                rev=rev*10+(a%10);
+                a=Math.floor(a/10);
+            }
+             document.write(rev);
+        }
+        
+    </script>
+</head>
+<body onload="reverse();">
+</body>
+</html>
